@@ -1,0 +1,33 @@
+/* css for universal selector (* is use) */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: brown;
+    font-weight: 600;
+}
+
+
+/*css for class selector (. is use) */
+.heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 900;
+    color: crimson;
+    background-color: bisque;
+}
+
+/* css for id selector (# is use) */
+#hello{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cyan;
+    color: blue;
+    font-weight: bold;
+}
+
+/* parent chid tag */
+ul>li{
+    list-style-type: disc;
+}
+
+
+
