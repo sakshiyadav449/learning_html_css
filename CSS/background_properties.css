@@ -1,0 +1,26 @@
+
+/* body{
+    background-color: antiquewhite;
+    background-image: url(/images/parrot.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+} */
+ #div1{
+    height: 200px;
+    background-color: blanchedalmond;
+    background-image: linear-gradient(to right,magenta,purple,pink);
+ }
+
+ #div2{
+    height: 500px;
+    background-color: rgb(245, 87, 29);
+    background-image: radial-gradient(circle,rgb(255, 0, 200),orange,red ,yellow);
+ }
+
+ #div3{
+      height: 500px;
+      background-color: brown;
+      background-image: conic-gradient(rgb(166, 8, 166),indigo,blue,green,yellow,orange,red)
+ }
+

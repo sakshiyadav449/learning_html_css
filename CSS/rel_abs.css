@@ -1,0 +1,35 @@
+
+.rel{
+    position:relative;
+    height:500px;
+    width: 500px;
+    background-color: black;
+    top: 100px;
+    left:200px;
+}
+
+#tv{
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    background-color: gold;
+    left:150px;
+}
+
+#sofa{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color: rgb(225, 225, 34);
+    left: 100px;
+    top: 200p;
+}
+
+#fridge{
+    position:absolute;
+    height: 100px;
+    width:100px;
+    background-color: rgb(240, 147, 8);
+    left:400px ;
+    bottom:0%
+}
