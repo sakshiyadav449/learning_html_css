@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box{
+            background-color: deepskyblue;
+            border-radius: 10px;
+            height: 150px;
+            width: 150px;
+            float: left;
+            margin-left: 40px;
+            transition: 3s;
+            text-align: center;
+            color: aliceblue;
+        }
+
+        .box1:hover{
+            transform:translate(125px,125px)
+        }
+        
+        .box2:hover{
+            transform:translateX(35px)
+        }
+        
+        .box3:hover{
+            transform:translateY(35px)
+        }
+
+        .box4:hover{
+            transform:rotate(360deg)
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="box box1">
+         Translate
+    </div>
+
+    <div class="box box2">
+        TranslateX
+   </div>
+
+   <div class="box box3">
+        TranslateY
+   </div>
+   <div class="box box4">
+        Rotate
+   </div>
+</body>
+</html>

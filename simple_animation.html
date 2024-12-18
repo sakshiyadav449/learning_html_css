@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: darkmagenta;
+            position: relative;
+            animation: sakshi;
+            -webkit-animation: sakshi;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate-reverse;
+        }
+
+        @keyframes sakshi {
+            0%{
+                background-color: aquamarine;
+                left: 0px;
+                top:0px;
+            }
+
+            25%{
+                background-color: chocolate;
+                left: 300px;
+                top:0px;
+            }
+
+            50%{
+                background-color: coral;
+                left: 300px;
+                top:300px;
+
+            }
+
+            75%{
+                background-color: cadetblue;
+                left: 0px;
+                top: 200px;
+            }
+
+            100%{
+                background-color: darkcyan;
+                left: 0px;
+                top:300px
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

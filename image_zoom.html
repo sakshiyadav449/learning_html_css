@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- style -->
+    <style>
+
+        .image-wrapper{
+            width:800px;
+            height: 300px;
+            overflow:hidden;
+            border:2px solid rgb(103, 67, 67);
+            position: relative;
+        }
+
+        .inner-img{
+            width:100%;
+            height:100%;
+            transition: 10s;
+            object-fit:cover;
+            /* opacity to blur the img */
+        &:hover{
+            
+            transform:scale(5);
+        }
+    }
+
+    </style>
+<body>
+    
+    <!-- img for img zooming -->
+
+    <div class="image-wrapper">
+        <img class="inner-img" src="/images/peacock.jpg" alt="peacock">
+    </div>
+</body>
+</html>
